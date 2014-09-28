@@ -11,10 +11,24 @@
 	<link rel="stylesheet" type="text/css" href="css/main_resp.css?111239839575">
 	<link rel="stylesheet" type="text/css" href="css/add_resp.css?2054301751">
 	
+	<!--[if lt IE 9]>
+	    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js?5989082344"></script>
+	    <link rel="stylesheet" href="css/ie.css">
+	<![endif]-->
+	
+	<!-- respod.js here -->
+	<script src="scripts/respond.min.js?58403804968"></script>
+	
+	
+	<!-- RESPONSIVE NAV -->
+	<link rel="stylesheet" href="css/responsive-nav_1.css?30459685">
+	<script src="scripts/responsive-nav.js?58403804968"></script>
+	<!-- // RESPONSIVE NAV --> 
+	
 	
 	<!-- orig RF styles -->
-	<link rel="stylesheet" type="text/css" href="http://im.rusfond.ru/css/main.css?1844514440">
-	<link rel="stylesheet" type="text/css" href="http://im.rusfond.ru/add_css/add.css?1844514440">
+	<!--<link rel="stylesheet" type="text/css" href="http://im.rusfond.ru/css/main.css?1844514440">
+	<link rel="stylesheet" type="text/css" href="http://im.rusfond.ru/add_css/add.css?1844514440">-->
 
     
 
@@ -1363,10 +1377,21 @@ style="border:0;" height="1" width="1" alt="Рейтинг@Mail.ru" /&gt;&lt;/a&
 <!-- SELECTOR -->
 <div class="section">
 
-	<ul class="tabs hnav">
+<!-- responsive nav first -->   
+   <header>
+ <nav class="nav-collapse">
+	<ul class="tabs hnav active">
 
-		<li><a href="" onclick="return false;"><hc id="hc_select_index187" class="hc_select_index"></hc>Колумнисты</a></li>		<li><a href="" onclick="return false;"><hc id="hc_select_index188" class="hc_select_index"></hc>Рубрики</a></li>		<li><a href="" onclick="return false;"><hc id="hc_select_index189" class="hc_select_index"></hc>Акции</a></li>		<li><a href="" onclick="return false;"><hc id="hc_select_index190" class="hc_select_index"></hc>Русфонд в регионах</a></li>		<li><a href="" onclick="return false;"><hc id="hc_select_index191" class="hc_select_index"></hc>Русфонд в СМИ</a></li>		<li class="last"></li>
+		<li><a href="#">Колумнисты</a></li>
+		<li><a href="#">Рубрики</a></li>	
+		<li><a href="#">Акции</a></li>	
+		<li><a href="#">Русфонд в регионах</a></li>	
+		<li><a href="#">Русфонд в СМИ</a></li>
+		<li class="last"></li>
 	</ul>
+	</nav>
+</header>
+<!-- // responsive nav first -->  
 
 <div class="box">
 <div class="list_columns_3 list_rubricator_3">
@@ -1687,6 +1712,11 @@ style="border:0;" height="1" width="1" alt="Рейтинг@Mail.ru" /&gt;&lt;/a&
 // ]]></script>
 
 <div id="mask"></div>
+
+<!-- js for responsive nav -->
+<script src="scripts/fastclick.js"></script>
+<script src="scripts/scroll.js"></script>
+<script src="scripts/fixed-responsive-nav.js"></script>
 
 
 <iframe src="http://static.hypercomments.com/widget/hc/20140922204025/html/analytics.html" style="position: absolute; height: 1px; width: 1px; top:-1000px; background-color: transparent;" scrolling="no" frameborder="0"></iframe>
