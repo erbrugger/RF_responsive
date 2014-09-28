@@ -2667,13 +2667,15 @@ ul.tabs li.last {
 	top: 20px;
 }
 
-
+@media screen and (min-width: 1024px) {
 .leftcolumn {
 	float: left;
-	position: relative; 
+	position: relative;
+	margin: 0 22px 0 0; 
 	overflow: hidden; 
 	margin-top: 0;
 	}
+}
 
 .kids {
 	list-style: none;
