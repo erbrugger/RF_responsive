@@ -1,0 +1,163 @@
+/* tabs_1 for second & other NAV */
+
+.content ul.tabs_1 {
+	margin-bottom: 22px;
+}
+
+ul.tabs_1 {
+	position: relative;
+	list-style: none;
+	height: 49px;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+/*	background: url(http://im.rusfond.ru/pics/site/hnav-bg.gif);*/
+	overflow: hidden;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+@media screen and (min-width: 650px) {
+ul.tabs_1 li {
+	display: block;
+	height: 49px;
+	width: auto; //none
+	margin: 0 3px 0 0; //12px
+	padding: 0;
+	float: left;
+	}
+}
+
+
+@media screen and (min-width: 750px) {
+ul.tabs_1 li {
+	display: block;
+	height: 49px;
+	width: auto; //none
+	margin: 0 3px 0 0; //12px
+	padding: 0;
+	float: left;
+	}
+}
+
+@media screen and (min-width: 855px) {
+ul.tabs_1 li {
+	display: block;
+	height: 49px;
+	width: auto; //none
+	margin: 0 3px 0 0; //12px
+	padding: 0;
+	float: left;
+	}
+}
+
+@media screen and (min-width: 980px) {
+ul.tabs_1 li {
+	display: block;
+	height: 49px;
+	width: auto; //none
+	margin: 0 3px 0 0; //12px
+	padding: 0;
+	float: left;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+ul.tabs_1 li {
+	display: block;
+	height: 49px;
+	width: auto; //none
+	margin: 0 12px 0 0; //12px
+	padding: 0;
+	float: left;
+	}
+}
+
+@media screen and (min-width: 650px) {
+ul.tabs_1 li a {
+	display: block;
+	height: 34px;
+	padding: 15px 5px 0px 5px; //15px 22px 0px 22px;
+	font-family: Arial;
+	font-size: 14px;
+	color: #000000;
+	}
+}
+
+@media screen and (min-width: 750px) {
+ul.tabs_1 li a {
+	display: block;
+	height: 34px;
+	padding: 15px 8px 0px 8px; //15px 22px 0px 22px;
+	font-family: Arial;
+	font-size: 14px;
+	color: #000000;
+	}
+}
+
+@media screen and (min-width: 855px) {
+ul.tabs_1 li a {
+	display: block;
+	height: 34px;
+	padding: 15px 10px 0px 10px; //15px 22px 0px 22px;
+	font-family: Arial;
+	font-size: 16px;
+	color: #000000;
+	}
+}
+
+@media screen and (min-width: 980px) {
+ul.tabs_1 li a {
+	display: block;
+	height: 34px;
+	padding: 15px 22px 0px 17px; //15px 22px 0px 22px;
+	font-family: Arial;
+	font-size: 16px;
+	color: #000000;
+	}
+}
+
+
+@media screen and (min-width: 1024px) {
+ul.tabs_1 li a {
+display: block;
+height: 34px;
+padding: 15px 22px 0px 22px;
+font-family: Arial;
+font-size: 16px;
+color: #000000;
+	}
+}
+
+/*ul.tabs_1 li a:hover, ul.tabs_1 li:hover a, ul.tabs_1 li a:active, ul.tabs_1 li:active a {
+	color: #ffffff;
+	background: url(http://im.rusfond.ru/pics/site/hnav-a-r.gif) right top no-repeat;
+}
+
+ul.tabs_1 li.current a {
+	background: url(http://im.rusfond.ru/pics/site/hnav-current-r.gif) right top no-repeat;
+	color: #ffffff;
+}
+
+ul.tabs_1 li.current, .tabs_1 li.current:hover {
+	background: url(http://im.rusfond.ru/pics/site/hnav-current-l.gif) left top no-repeat;
+}
+
+ul.tabs_1 li:hover, ul.tabs_1 li:active {
+	background: url(http://im.rusfond.ru/pics/site/hnav-a-l.gif) left top no-repeat;
+}*/
+
+ul.tabs_1 li.last {
+	position: absolute; top: 0; right: 0;
+	visibility: visible;
+	width: 22px;
+	height: 49px;
+	margin: 0;
+	padding: 0;
+	background: url(http://im.rusfond.ru/pics/site/searchform-bg.gif);
+}
+
+/* // tabs_1 for second & other NAV */

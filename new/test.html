@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<title>test Restive</title>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<!-- Install JQuery version 1.7 or higher -->
+<script type="text/javascript" src="jquery.min.js"></script>
+ 
+<!-- Install Restive.JS -->
+<script type="text/javascript" src="restive.min.js"></script>
+
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="test.css?2346437971" />
+
+ 
+<!-- Setup Plugin -->
+<script>
+$( document ).ready(function() {
+    $('body').restive({
+        breakpoints: ['240', '320', '480', '640', '720', '960', '1280'],
+        classes: ['rp_240', 'rp_320', 'rp_480', 'rp_640', 'rp_720', 'rp_960', 'rp_1280'],
+        turbo_classes: 'is_mobile=mobi,is_phone=phone,is_tablet=tablet',
+        force_dip: true
+    });
+    $('#container-1').restive({
+       breakpoints: ['720', '960', '1280'],
+       classes: ['720-ce', '960-ce', '1280-ce'],
+       anchor: 'window'
+    })
+});
+</script>
+</head>
+<body>
+<div id="container-1">
+test div
+</div>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<array>
+		<dict>
+			<key>h</key>
+			<real>905</real>
+			<key>w</key>
+			<real>1024</real>
+			<key>x</key>
+			<real>220</real>
+			<key>y</key>
+			<real>102</real>
+		</dict>
+		<dict>
+			<key>h</key>
+			<real>884</real>
+			<key>w</key>
+			<real>980</real>
+			<key>x</key>
+			<real>220</real>
+			<key>y</key>
+			<real>102</real>
+		</dict>
+		<dict>
+			<key>h</key>
+			<real>821</real>
+			<key>w</key>
+			<real>650</real>
+			<key>x</key>
+			<real>220</real>
+			<key>y</key>
+			<real>102</real>
+		</dict>
+		<dict>
+			<key>h</key>
+			<real>864</real>
+			<key>w</key>
+			<real>855</real>
+			<key>x</key>
+			<real>220</real>
+			<key>y</key>
+			<real>101</real>
+		</dict>
+		<dict>
+			<key>h</key>
+			<real>843</real>
+			<key>w</key>
+			<real>750</real>
+			<key>x</key>
+			<real>221</real>
+			<key>y</key>
+			<real>101</real>
+		</dict>
+	</array>
+	<key>frames-locked</key>
+	<array/>
+</dict>
+</plist>

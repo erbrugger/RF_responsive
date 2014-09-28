@@ -1,0 +1,39 @@
+HTML BODY {
+	background: #e4e1e1;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	}
+	
+@media screen and (min-width: 480px) {
+#test {
+	position: relative;
+	top: 150px;
+	left: 30px;
+	width: 200px;
+	height: 350px;
+	background: #ff6a0d; //orange
+}
+ }
+ 
+ @media screen and (min-width: 650px) {
+ #test {
+ 	position: relative;
+ 	top: 150px;
+ 	left: 30px;
+ 	width: 400px;
+ 	height: 350px;
+ 	background: #da0b8a; //purple
+ }
+  }
+  
+  @media screen and (min-width: 980px) {
+  #test {
+  	position: relative;
+  	top: 150px;
+  	left: 30px;
+  	width: 600px;
+  	height: 350px;
+  	background: #0baacf; //sea green
+  }
+   }
